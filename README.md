@@ -1,20 +1,20 @@
 ### Erlang NIF using rust
 
-A example of using [`rustler`](https://github.com/hansihe/rustler) to imlement an Erlang NIF in `rust` language.
+A example of using [rustler](https://github.com/hansihe/rustler) to imlement an Erlang NIF in `rust` language.
 
 
 ### Usage
 - Compile
+
 ```bash
 $ rebar3 compile
-``
+```
 
 - Launch shell
 ```bash
 $ rebar3 shell
 ```
 
-- 
 ```erlang
 Erlang/OTP 20 [erts-9.3] [source] [64-bit] [smp:2:2] [ds:2:2:10] [async-threads:1] [hipe] [kernel-poll:false]
 
