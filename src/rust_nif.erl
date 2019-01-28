@@ -2,7 +2,8 @@
 
 %% API Exports
 -export([
-	 add/2
+	 add/2,
+	 current_time/0
 	]).
 
 -on_load(init/0).
@@ -29,6 +30,9 @@ add(A,B) ->
 %% NIFS
 %%====================================================================
 add_nif(_,_) ->
+    not_loaded(?LINE).
+
+current_time() ->
     not_loaded(?LINE).
 
 
